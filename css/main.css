@@ -27,15 +27,12 @@ article {
 article h1 {
   font-weight: normal;
   margin-bottom: 0;
+  margin-top: 1rem;
 }
 
-p {
+article p {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-p:first-of-type {
-  margin-top: .1rem;
 }
 
 article > p {
@@ -49,6 +46,10 @@ article header {
 
 article header p {
   font-style: italic;
+}
+
+p:first-of-type {
+  margin-top: .1rem;
 }
 
 article > p:last-child {
@@ -67,7 +68,7 @@ blockquote {
   color: #999;
 }
 
-ol {
+article ol {
   padding-left: 1rem;
 }
 
@@ -84,7 +85,7 @@ ol {
   }
 
   blockquote {
-    margin-left: 4rem;;
+    margin-left: 4rem;
   }
 
   p:first-of-type {
@@ -117,7 +118,7 @@ ol {
 
 @media only screen and (min-width: 90em) {
 
-  html{
+  html {
     font-size: 130%;
     line-height: 1.5;
   }
